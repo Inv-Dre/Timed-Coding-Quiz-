@@ -12,6 +12,14 @@ body{
     align-items: center;
     background-color: wheat;
 }
+ body .hs{
+align-content: flex-start;
+
+} 
+.time{
+    font-size: 25px;
+}
+
 h1 { 
     text-align: center;
 }
