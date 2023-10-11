@@ -51,13 +51,15 @@ border-radius: 5px;
 .answers{
     padding: 2px;
     margin: 5px;
-    font-size: 30px;
-    border-style:solid;
     list-style-type:none;
 }
 
 .answers:hover {
   background-color: wheat;
+}
+
+.btn{
+padding: 25px 300px;
 }
 
 .hide{

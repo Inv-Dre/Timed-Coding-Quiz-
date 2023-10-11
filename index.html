@@ -9,7 +9,7 @@
     </head>
     <body>
         <nav>
-            <div id="hs" class="hs hide">Highscores</div>
+            <div id="hs" class="hs hide"><a href="#highscorepage">Highscores</a></div>
             <div class="time"></div>
         </nav>
         <h1>JavaScript Info Quiz</h1>
@@ -18,16 +18,24 @@
         
         <div id="quiz-container" class="hide">
             <div class="question">First Question</div>
-                <div id="a" class="answers ">1</div>
-                <div id='b' class="answers ">2</div>
-                <div id='c' class="answers ">3</div>
-                <div id="d" class="answers ">4</div>
+                <ul>
+                    <li class="answers"><button class="btn" id="a">1</button></li>
+                    <li class="answers" ><button class="btn" id='b'>2</button></li>
+                    <li class="answers"><button class="btn" id='c'>3</button></li>
+                    <li class="answers"><button class="btn" id="d">4</button></li>
+                </ul>
             </div>
         
         </div>
+        <div id="highscorepage" class="hide">
+
+            <button id='restartbtn' class='hide'>Restart Quiz</button>
+
 
         </div>
-    
+
+        
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
         <script src="assets/script.js"></script>
     </body>
 </html>
